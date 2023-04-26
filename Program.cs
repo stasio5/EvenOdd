@@ -13,7 +13,7 @@ namespace EvenOdd
             var userEntereredNumber = 0;
             try
             {
-                Console.WriteLine("Sprawdzenie pażystości wprowadzonej liczby ");
+                Console.WriteLine("Sprawdzenie parzystości wprowadzonej liczby ");
                 Console.Write("Podaj proszę liczbę: ");
                 userEntereredNumber = GetUserInput();
                 if (userEntereredNumber % 2 == 0) Console.Write("Liczba parzysta");
